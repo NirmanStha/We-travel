@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/57491ef94b.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-extend-sm navbar-light bg-dark fixed-top"
+      id="header"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="200"
+            height="56"
+            viewBox="0 0 200 56"
+          >
+            <text
+              id="WE-Travel"
+              transform="translate(0 43)"
+              fill="#ff9f1c"
+              font-size="40"
+              font-family="SegoeUIBlack, Segoe UI"
+            >
+              <tspan x="0" y="0">WE</tspan>
+              <tspan y="0" fill="#fff">-</tspan>
+              <tspan
+                y="0"
+                fill="#fff"
+                font-family="BrushScriptStd, Brush Script Std"
+              >
+                Travel
+              </tspan>
+            </text>
+          </svg>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-white text-center"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white text-center" href="#"
+                >Book A Tour</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-center" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-center" href="./gallary.html"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-center" href="#">Teams</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-center" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <h2 class="text-center">Book A Tour</h2>
+      <p class="text-center">
+        Please fill out the form below to book your tour. We'll get back to you
+        shortly.
+      </p>
+      <form>
+        <div class="mb-3" style="width: 100%">
+          <label for="name" class="form-label">Your Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="mb-3" style="width: 100%">
+          <label for="email" class="form-label">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="mb-3" style="width: 100%">
+          <label for="tourDate" class="form-label">Tour Date</label>
+          <input
+            type="date"
+            class="form-control"
+            id="tourDate"
+            placeholder="Select tour date"
+            required
+          />
+        </div>
+        <div class="mb-3" style="width: 100%">
+          <label for="tourDestination" class="form-label"
+            >Tour Destination</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="tourDestination"
+            placeholder="Enter tour destination"
+            required
+          />
+        </div>
+        <div class="mb-3" style="width: 100%">
+          <label for="userLocation" class="form-label">Your Location</label>
+          <input
+            type="text"
+            class="form-control"
+            id="userLocation"
+            placeholder="Enter your location"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <section class="footer pt-5 bg-dark" style="height: 100%">
+      <div class="container mx-auto">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 footer-logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="200"
+              height="56"
+              viewBox="0 0 200 56"
+            >
+              <text
+                id="WE-Travel"
+                transform="translate(0 43)"
+                fill="#ff9f1c"
+                font-size="40"
+                font-family="SegoeUIBlack, Segoe UI"
+              >
+                <tspan x="0" y="0">WE</tspan>
+                <tspan y="0" fill="#fff">-</tspan>
+                <tspan
+                  y="0"
+                  fill="#fff"
+                  font-family="BrushScriptStd, Brush Script Std"
+                >
+                  Travel
+                </tspan>
+              </text>
+            </svg>
+            <p class="text-white">
+              Lorem ipsum dolor amet consetetur adi pisicing elit sed eiusm
+              tempor in cididunt ut labore dolore magna aliqua enim.
+            </p>
+          </div>
+          <div class="col-lg-4 col-sm-12 services text-white">
+            <h4>Services</h4>
+            <ul class="p-0">
+              <li>About US</li>
+              <li>How it Works</li>
+              <li>Our Blogs</li>
+              <li>Our Services</li>
+              <li>Listing</li>
+              <li>On Going</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-sm-12 follow-us text-white">
+            <h4>Follow Us On:</h4>
+            <div class="icons">
+              <div class="fb">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </div>
+              <div class="insta">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </div>
+              <div class="tweet">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </div>
+              <div class="gplus">
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+              </div>
+              <div class="linkedin">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"
+  ></script>
+</html>
